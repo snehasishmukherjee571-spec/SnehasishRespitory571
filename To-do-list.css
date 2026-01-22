@@ -1,0 +1,58 @@
+body{
+    font-family:sans-serif;
+    font-weight:bold;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+#color1{
+    color:blue
+}
+#color2{color:red}
+#color3{
+color:blueviolet
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+  }
+  
+  #task-list li {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s ease;
+  }
+  
+  #task-list li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  #task {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  #add-task {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #add-task:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  
